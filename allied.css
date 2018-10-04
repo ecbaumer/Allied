@@ -1,3 +1,11 @@
+/* ______________________________________________global__________________________________ */
+button {
+  background-color: #4286f4;
+  border-radius: 25px 25px !important;
+  padding: 5px 23px;
+  border: none;
+  color: #fff;
+}
 
 /* ______________________________________________NAV__________________________________ */
 
@@ -27,9 +35,36 @@ nav li a {
 .logo {
 max-width: 350px;
 padding-top: 30px;
-
 }
 
+.welcome h1 {
+  color: #fff;
+  font-size: 30px;
+  margin: 0 auto;
+  max-width: 600px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.welcome-button {
+ display: flex;
+ justify-content: center;
+}
+
+#phoneNo {
+  width: 200px;
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+  /* IE */
+  -ms-transform: rotate(-90deg);
+  /* Opera */
+  -o-transform: rotate(-90deg);
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
 
 
 /* ______________________________________________Testimony __________________________________ */
