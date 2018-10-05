@@ -176,12 +176,10 @@ padding-top: 30px;
 
 /* ______________________________________________Urn __________________________________ */
 .urns {
-  
   background-color: #55c1ff;
 }
-
-.urns-products-box {
-  display: inline;
+.urns-row {
+  padding: 30px;
 }
 .urns-ph-box {
   display: flex;
@@ -190,7 +188,9 @@ padding-top: 30px;
 }
 .urns-phone-img {
   height: 50px;
-  
+}
+.urns-products-box {
+ padding-left: 30px !important;
 }
 .urns-ph-box_words {
    height: 50px; 
@@ -224,7 +224,9 @@ padding-top: 30px;
   font-weight: 800;
   font-size: 14px;
   margin: 0;
-
+}
+.fa-caret-right {
+  padding-left: 10px;
 }
 
 /* ______________________________________________Testimony __________________________________ */
