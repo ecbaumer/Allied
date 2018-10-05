@@ -357,4 +357,50 @@ padding-top: 30px;
 }
 /* #endregion */
 
+/* ______________________________________________ About __________________________________ */
+/* #region */
 
+.about-words {
+  font-family: 'Roboto', sans-serif;
+}
+.about-words h2 {
+  color: #55c1ff;
+  font-weight: 500;
+  font-size: 40px;
+}
+.about-words p {
+  color: #4286f4;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.about-words-group {
+  padding: 100px 0 0 20px;
+  max-width: 550px;
+}
+/* #endregion */
+
+.bridge {
+  background-color: #55c1ff;
+  /* min-height: 600px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.white-box-bridge {
+  margin: 10% 20%;
+  padding: 30px 150px;
+  background-color: #fff;
+  
+}
+.white-box-bridge h2 {
+   color: #55c1ff;
+   font-weight: 500;
+   font-size: 40px;
+}
+.white-box-bridge h4 {
+   color: #4286f4;
+   font-weight: 500;
+   font-size: 40px;
+
+}
