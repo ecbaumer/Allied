@@ -1,4 +1,5 @@
 /* ______________________________________________buttons__________________________________ */
+/* #region */
 button{
   background-color: #4286f4;
   border-radius: 25px 25px !important;
@@ -14,7 +15,9 @@ button{
 .but-light {
   background-color: #55c1ff;
 }
+/* #endregion */
 /* ______________________________________________colors__________________________________ */
+/* #region */
 .dark-blue {
  color:  #4286f4;
 }
@@ -30,25 +33,31 @@ button{
 .purple {
   color: #6f73d2;
 }
+/* #endregion */
 
-/* ______________________________________________NAV__________________________________ */
-
+/* #______________________________________________NAV__________________________________ */
+/* #region */
 nav {
   background-color: #4286f4;
 }
 .nav {
-  padding: 15px 0;
+  padding: 8px 0;
   margin: 0 auto;
   max-width: 1000px;
 }
 
 nav li a {
   color: white;
-  text-align: center;
-}
+  text-align: center;  
+  font-family: 'Roboto',
+  sans-serif;
+  font-weight: 600;
 
+}
+/* #endregion */
 
 /* ______________________________________________Hero __________________________________ */
+/* #region */
 .welcome {
   height: 570px;
   background-position: center center;
@@ -119,8 +128,9 @@ padding-top: 30px;
   margin: 0;
   padding: 7px 6px 7px 28px;
 }
-
+/* #endregion */
 /* ______________________________________________Started__________________________________ */
+/* #region */
 .started {
   position: relative;
   min-height: 400px;
@@ -173,8 +183,9 @@ padding-top: 30px;
   top: -30px;
   left: 80px;
 }
-
+/* #endregion */
 /* ______________________________________________Urn __________________________________ */
+/* #region */
 .urns {
   background-color: #55c1ff;
 }
@@ -228,38 +239,41 @@ padding-top: 30px;
 .fa-caret-right {
   padding-left: 10px;
 }
-
+/* #endregion */
 /* ______________________________________________Testimony __________________________________ */
+/* #region */
 .testimony {
   background-color: #4286f4;
 }
 .testimonial {
   color: #fff;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  font-size: 25px;
 }
 
 .overview {
    color: #fff;
 }
 
-.carousel .overview b {
-  color: #fff !important;
+.carousel-item hr {
+  display: inline-block;
+  width: 20px;
+  height: 1px;
+  background-color: white;
+  margin-top: 20px;
+}
+.carousel-item img {
+  padding: 0 5px 30px 5px;
 }
 
 
-
-
-
-
-
-
-/* ______________________________________________ Carosel __________________________________ */
 .col-center {
   margin: 0 auto;
   float: none !important;
 }
 .carousel {
-  margin: 50px auto;
-  padding: 0 70px;
+  margin: 30px 0 80px 0;
 }
 
 .carousel .item {
@@ -290,15 +304,15 @@ padding-top: 30px;
   padding: 30px 0 10px;
 }
 
-.carousel .overview {
-  font-style: italic;
-}
-
 .carousel .overview b {
-  text-transform: uppercase;
-  color: #7AA641;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400;
+  font-size: 20px;
 }
-
+.ovr-p {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 200;
+}
 .carousel .carousel-control {
   width: 40px;
   height: 40px;
@@ -341,3 +355,6 @@ padding-top: 30px;
   background: #fff;
   box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
 }
+/* #endregion */
+
+
