@@ -5,7 +5,7 @@ button{
   padding: 5px 23px;
   border: none;
   color: #fff;
-  font-family: 'Noto Serif JP', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
 .but-dark {
@@ -69,7 +69,7 @@ padding-top: 30px;
   max-width: 600px;
   padding-top: 20px;
   text-align: center;
-  font-family: 'Noto Serif JP', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
 }
 
@@ -128,18 +128,20 @@ padding-top: 30px;
   display: flex;
 }
 .started p {
-  font-family: 'Noto Serif JP', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #4286f4;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4286f4;
 }
 .started h3 {
-  font-family: 'Noto Serif JP', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 600;
   color: #4286f4;
 }
-
+.started-2 {
+  padding-left: 50px;
+}
 .started-2 h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 800;
@@ -153,10 +155,16 @@ padding-top: 30px;
 .started-row {
   padding-bottom: 60px;
 }
-.started-3 {
-  border-right: 1px solid rgba(111, 115, 210, 0.3);
-  height: 70%;
+.started-3:after {
+  content: '';
+  border-right: 2px solid rgba(111, 115, 210, 0.3);
+  position: absolute;
+  right: 14px;
+  top: -14%;
+  z-index: 1;
+  height: 200px;
 }
+
 .started-4 {
   margin-left: 20px;
 }
@@ -168,13 +176,60 @@ padding-top: 30px;
 
 /* ______________________________________________Urn __________________________________ */
 .urns {
-  min-height: 100px;
+  
   background-color: #55c1ff;
+}
+
+.urns-products-box {
+  display: inline;
+}
+.urns-ph-box {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid rgba(111, 115, 210, 0.3);
+}
+.urns-phone-img {
+  height: 50px;
+  
+}
+.urns-ph-box_words {
+   height: 50px; 
+   padding-left: 20px;
+  
+}
+.urn-h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+}
+.urns-phNumber {
+  font-family: 'Roboto', sans-serif;
+  color: #4286f4;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.urn-prod-h3 {
+ font-family: 'Roboto', sans-serif;
+ font-weight: 300;
+ color: #fff;
+ font-size: 25px;
+ margin: 0;
+}
+.urn-products-link {
+  font-family: 'Roboto',sans-serif;
+  color: #4286f4;
+  font-weight: 800;
+  font-size: 14px;
+  margin: 0;
+
 }
 
 /* ______________________________________________Testimony __________________________________ */
 .testimony {
-  background-color: #4286f4
+  background-color: #4286f4;
 }
 .testimonial {
   color: #fff;
