@@ -125,12 +125,13 @@ padding-top: 30px;
   position: relative;
   min-height: 400px;
   margin: 0 30px;
+  display: flex;
 }
-.started-2 h2 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 800;
-  color: #55c1ff;
-  font-size: 18px 
+.started p {
+  font-family: 'Noto Serif JP', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4286f4;
 }
 .started h3 {
   font-family: 'Noto Serif JP', sans-serif;
@@ -138,10 +139,37 @@ padding-top: 30px;
   font-weight: 600;
   color: #4286f4;
 }
+
+.started-2 h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  color: #55c1ff;
+  font-size: 18px 
+}
+.started-h2-box {
+  height: 30px;
+  padding-top: 100px;
+}
+.started-row {
+  padding-bottom: 60px;
+}
+.started-3 {
+  border-right: 1px solid rgba(111, 115, 210, 0.3);
+  height: 70%;
+}
+.started-4 {
+  margin-left: 20px;
+}
 .hover-dog{
   position: absolute;
   top: -30px;
   left: 80px;
+}
+
+/* ______________________________________________Urn __________________________________ */
+.urns {
+  min-height: 100px;
+  background-color: #55c1ff;
 }
 
 /* ______________________________________________Testimony __________________________________ */
