@@ -1,10 +1,34 @@
-/* ______________________________________________global__________________________________ */
-button {
+/* ______________________________________________buttons__________________________________ */
+button{
   background-color: #4286f4;
   border-radius: 25px 25px !important;
   padding: 5px 23px;
   border: none;
   color: #fff;
+  font-family: 'Noto Serif JP', sans-serif;
+  font-weight: 400;
+}
+.but-dark {
+  background-color: #4286f4;
+}
+.but-light {
+  background-color: #55c1ff;
+}
+/* ______________________________________________colors__________________________________ */
+.dark-blue {
+ color:  #4286f4;
+}
+.blue {
+  color: #55c1ff;
+}
+.light-blue {
+  color: #a3d5ff;
+}
+.ltst-blue {
+ color: #d9f0ff;
+}
+.purple {
+  color: #6f73d2;
 }
 
 /* ______________________________________________NAV__________________________________ */
@@ -30,6 +54,7 @@ nav li a {
   background-position: center center;
   background-repeat: no-repeat;
   background-image: url(../assets/images/heroimg.png);
+  position: relative;
 }
 
 .logo {
@@ -39,20 +64,30 @@ padding-top: 30px;
 
 .welcome h1 {
   color: #fff;
-  font-size: 30px;
+  font-size: 35px;
   margin: 0 auto;
   max-width: 600px;
   padding-top: 20px;
   text-align: center;
+  font-family: 'Noto Serif JP', sans-serif;
+  font-weight: 600;
 }
 
 .welcome-button {
  display: flex;
  justify-content: center;
+ margin-top: 40px;
 }
 
-#phoneNo {
-  width: 200px;
+.phone-box {
+  position: absolute;
+  position: fixed;
+  right: 0;
+  top: 300px;
+  width: 94px;
+}
+.floating-phone-box,
+.phone-box-cell {
   /* Safari */
   -webkit-transform: rotate(-90deg);
   /* Firefox */
@@ -63,9 +98,51 @@ padding-top: 30px;
   -o-transform: rotate(-90deg);
   /* Internet Explorer */
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-
 }
 
+.floating-phone-box {
+  position: relative; 
+  width: 150px;
+  background-color: #4286f4;
+}
+
+.phone-box-cell {
+  position: absolute;
+  bottom: 13px;
+  padding: 5;
+  left: 9px;
+}
+
+#phoneNo {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 7px 6px 7px 28px;
+}
+
+/* ______________________________________________Started__________________________________ */
+.started {
+  position: relative;
+  min-height: 400px;
+  margin: 0 30px;
+}
+.started-2 h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  color: #55c1ff;
+  font-size: 18px 
+}
+.started h3 {
+  font-family: 'Noto Serif JP', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #4286f4;
+}
+.hover-dog{
+  position: absolute;
+  top: -30px;
+  left: 80px;
+}
 
 /* ______________________________________________Testimony __________________________________ */
 .testimony {
