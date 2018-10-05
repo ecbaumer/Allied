@@ -382,7 +382,6 @@ padding-top: 30px;
 
 .bridge {
   background-color: #55c1ff;
-  /* min-height: 600px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -397,10 +396,12 @@ padding-top: 30px;
    color: #55c1ff;
    font-weight: 500;
    font-size: 40px;
+   text-align: center;
 }
 .white-box-bridge h4 {
    color: #4286f4;
    font-weight: 500;
    font-size: 40px;
+   text-align: center;
 
 }
