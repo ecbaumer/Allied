@@ -276,6 +276,7 @@ padding-top: 30px;
 /* #region  testimony _______________________ */
 .testimony {
   background-color: #4286f4;
+  max-height: 400px;
 }
 .testimonial {
   color: #fff;
@@ -437,25 +438,42 @@ padding-top: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-.white-box-bridge {
-  margin: 10% 20%;
-  padding: 30px 150px;
-  background-color: #fff;
   
 }
+
+.white-box-bridge {
+  margin: 10% 20%;
+  background-color: #fff;
+  position: relative;
+}
+.white-box-bridge img {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .white-box-bridge h2 {
+   font-family: 'Roboto',sans-serif;
    color: #55c1ff;
    font-weight: 500;
-   font-size: 40px;
+   font-size: 30px;
    text-align: center;
+   margin-top: 50px;
 }
 .white-box-bridge h4 {
+   font-family: 'Roboto', sans-serif;
    color: #4286f4;
    font-weight: 500;
-   font-size: 40px;
+   font-size: 14px;
    text-align: center;
-
+}
+.white-box-bridge p {
+  font-family: 'Roboto', sans-serif;
+  color: #4286f4;
+  font-size: 14px;
+  padding: 0 20px;
+  text-align: center;
+  white-space: pre-line;
 }
 /* #endregion */
 
