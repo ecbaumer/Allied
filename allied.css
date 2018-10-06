@@ -434,7 +434,7 @@ padding-top: 30px;
 /* #region  bridge _______________________ */
 
 .bridge {
-  background-color: #55c1ff;
+  background-color: #d9f0ff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -442,7 +442,7 @@ padding-top: 30px;
 }
 
 .white-box-bridge {
-  margin: 10% 20%;
+  margin: 5% 15%;
   background-color: #fff;
   position: relative;
 }
@@ -471,9 +471,43 @@ padding-top: 30px;
   font-family: 'Roboto', sans-serif;
   color: #4286f4;
   font-size: 14px;
-  padding: 0 20px;
+  padding: 0 10px;
   text-align: center;
   white-space: pre-line;
 }
 /* #endregion */
+/* #region  footer _______________________ */
+footer {
+  background-color: #4286f4;
+  min-height: 100px;
+}
+.footer-box {
+  padding: 20px 20px;
+}
+.footer-links {
+  display: flex;
+  /* flex-direction: row; */
+}
+.footer-links > li {
+  list-style-type: none;
+  margin-right: 10px;
+  
+}
+.footer-links > li > a {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+.footer-links > li:after {
+  content: '|';
+  padding-left: 10px;
+  /* border-right: 1px solid white; */
+  color: white;
+}
 
+.footer-links > li:last-child:after {
+  content: '';
+}
+
+
+/* #endregion */
