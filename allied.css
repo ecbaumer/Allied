@@ -59,15 +59,16 @@ nav li a {
 /* ______________________________________________Hero __________________________________ */
 /* #region */
 .welcome {
-  height: 570px;
+  min-height: 570px;
   background-position: center center;
   background-repeat: no-repeat;
   background-image: url(../assets/images/heroimg.png);
   position: relative;
+  background-size: cover;
 }
 
 .logo {
-max-width: 350px;
+max-width: 250px;
 padding-top: 30px;
 }
 
@@ -149,6 +150,14 @@ padding-top: 30px;
   font-weight: 600;
   color: #4286f4;
 }
+.started-1 {
+  position: relative;
+}
+.hover-dog {
+  position: absolute;
+  top: -47px;
+  left: -10px;
+}
 .started-2 {
   padding-left: 50px;
 }
@@ -178,11 +187,7 @@ padding-top: 30px;
 .started-4 {
   margin-left: 20px;
 }
-.hover-dog{
-  position: absolute;
-  top: -30px;
-  left: 80px;
-}
+
 /* #endregion */
 /* ______________________________________________Urn __________________________________ */
 /* #region */
