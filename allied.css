@@ -1,5 +1,5 @@
-/* ______________________________________________buttons__________________________________ */
-/* #region */
+
+/* #region  buttons _______________________ */
 button{
   background-color: #4286f4;
   border-radius: 25px 25px !important;
@@ -16,8 +16,7 @@ button{
   background-color: #55c1ff;
 }
 /* #endregion */
-/* ______________________________________________colors__________________________________ */
-/* #region */
+/* #region  colors _______________________ */
 .dark-blue {
  color:  #4286f4;
 }
@@ -34,9 +33,7 @@ button{
   color: #6f73d2;
 }
 /* #endregion */
-
-/* #______________________________________________NAV__________________________________ */
-/* #region */
+/* #region  nav _______________________ */
 nav {
   background-color: #4286f4;
 }
@@ -55,9 +52,7 @@ nav li a {
 
 }
 /* #endregion */
-
-/* ______________________________________________Hero __________________________________ */
-/* #region */
+/* #region  hero _______________________ */
 .welcome {
   min-height: 570px;
   background-position: center center;
@@ -95,6 +90,7 @@ padding-top: 30px;
   right: 0;
   top: 300px;
   width: 94px;
+  z-index: 10;
 }
 .floating-phone-box,
 .phone-box-cell {
@@ -129,9 +125,21 @@ padding-top: 30px;
   margin: 0;
   padding: 7px 6px 7px 28px;
 }
+
+@media only screen and (max-width: 768px) {
+  .welcome{
+    min-height: 370px;
+  }
+  .logo {
+    max-width: 150px;
+    padding-top: 20px;
+  }
+  .welcome h1 {
+    font-size: 20px;
+  }
+}
 /* #endregion */
-/* ______________________________________________Started__________________________________ */
-/* #region */
+/* #region  started  _______________________  */
 .started {
   position: relative;
   min-height: 400px;
@@ -158,8 +166,8 @@ padding-top: 30px;
   top: -47px;
   left: -10px;
 }
-.started-2 {
-  padding-left: 50px;
+.started-h2-box {
+  padding-top: 70px;
 }
 .started-2 h2 {
   font-family: 'Roboto', sans-serif;
@@ -167,30 +175,44 @@ padding-top: 30px;
   color: #55c1ff;
   font-size: 18px 
 }
-.started-h2-box {
-  height: 30px;
-  padding-top: 100px;
-}
-.started-row {
+.started-text {
   padding-bottom: 60px;
 }
+.reg-p {
+  padding-right: 10px;
+}
+
+
 .started-3:after {
   content: '';
   border-right: 2px solid rgba(111, 115, 210, 0.3);
   position: absolute;
   right: 14px;
-  top: -14%;
+  top: -8%;
   z-index: 1;
-  height: 200px;
+  height: 160px;
 }
 
-.started-4 {
-  margin-left: 20px;
-}
+@media only screen and (max-width: 768px) {
+  .started-3:after {
+    display: none;
+  }
+  .started-2, .started-3, .started-4 {
+    margin-left: -40px;
+  }
+  .started-3 {
+    margin-bottom: 40px;
+    border-bottom: 2px solid rgba(111, 115, 210, 0.3);
+    padding-bottom: 40px;
+  }
 
+  .urns-products-box {
+    margin-top: 30px;
+  }
+
+}
 /* #endregion */
-/* ______________________________________________Urn __________________________________ */
-/* #region */
+/* #region  urn _______________________ */
 .urns {
   background-color: #55c1ff;
 }
@@ -244,9 +266,14 @@ padding-top: 30px;
 .fa-caret-right {
   padding-left: 10px;
 }
+@media only screen and (max-width: 768px) { 
+  .urns-products-box {
+    padding-left: 15px !important;
+  }
+}
+
 /* #endregion */
-/* ______________________________________________Testimony __________________________________ */
-/* #region */
+/* #region  testimony _______________________ */
 .testimony {
   background-color: #4286f4;
 }
@@ -361,9 +388,7 @@ padding-top: 30px;
   box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 /* #endregion */
-
-/* ______________________________________________ About __________________________________ */
-/* #region */
+/* #region  about _______________________  */
 
 .about-words {
   font-family: 'Roboto', sans-serif;
@@ -380,10 +405,32 @@ padding-top: 30px;
 }
 
 .about-words-group {
-  padding: 100px 0 0 20px;
-  max-width: 550px;
+  padding: 20% 0 0 20px;
 }
+
+.no-gutters {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+@media only screen and (max-width: 992px) {
+  .about-words-group {
+    padding: 20px 20px 0 20px;
+  }
+  .about-words h2 {
+    font-size: 30px;
+  }
+  .about-words p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about-words-group {
+    padding: 20px;
+  }
+}
+
 /* #endregion */
+/* #region  bridge _______________________ */
 
 .bridge {
   background-color: #55c1ff;
@@ -410,3 +457,5 @@ padding-top: 30px;
    text-align: center;
 
 }
+/* #endregion */
+
