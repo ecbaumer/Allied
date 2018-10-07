@@ -55,6 +55,20 @@ nav li a {
   text-align: center;  
   font-weight: 600;
 }
+
+@media only screen and (max-width: 768px) { 
+ nav li a {
+   font-size: var(--font14);
+ }
+ .nav-link {
+   padding: 10px !important;
+ }
+}
+@media only screen and (max-width: 449px) {
+  nav li a {
+    font-size: var(--font12);
+  }
+}
 /* #endregion */
 /* #region  hero _______________________ */
 .welcome {
@@ -64,6 +78,7 @@ nav li a {
   background-image: url(../assets/images/heroimg.png);
   position: relative;
   background-size: cover;
+  margin-top: 50px;
 }
 .logo {
 max-width: 250px;
@@ -124,6 +139,7 @@ padding-top: 30px;
 @media only screen and (max-width: 768px) {
   .welcome{
     min-height: 370px;
+    margin-top: 90px;
   }
   .logo {
     max-width: 150px;
