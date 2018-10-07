@@ -1,4 +1,8 @@
-
+/* #region fonts _______________________ */
+body {
+   font-family: 'Roboto',sans-serif;
+}
+/* #endregion */
 /* #region  buttons _______________________ */
 button{
   background-color: #4286f4;
@@ -6,36 +10,28 @@ button{
   padding: 5px 23px;
   border: none;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+ 
   font-weight: 400;
 }
 .but-dark {
   background-color: #4286f4;
 }
 .but-light {
-  background-color: #55c1ff;
+  background-color: var(--blue-1);
 }
 /* #endregion */
 /* #region  colors _______________________ */
-.dark-blue {
- color:  #4286f4;
-}
-.blue {
-  color: #55c1ff;
-}
-.light-blue {
-  color: #a3d5ff;
-}
-.ltst-blue {
- color: #d9f0ff;
-}
-.purple {
-  color: #6f73d2;
+:root {
+  --dark-blue: #4286f4;
+  --blue-1: #55c1ff;
+  --light-blue: #a3d5ff;
+  --lighter-blue: #d9f0ff;
+  --purple: #6f73d2;
 }
 /* #endregion */
 /* #region  nav _______________________ */
 nav {
-  background-color: #4286f4;
+  background-color: var(--dark-blue);
 }
 .nav {
   padding: 8px 0;
@@ -46,7 +42,6 @@ nav {
 nav li a {
   color: white;
   text-align: center;  
-  font-family: 'Roboto',
   sans-serif;
   font-weight: 600;
 
@@ -74,7 +69,6 @@ padding-top: 30px;
   max-width: 600px;
   padding-top: 20px;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
   font-weight: 600;
 }
 
@@ -109,7 +103,7 @@ padding-top: 30px;
 .floating-phone-box {
   position: relative; 
   width: 150px;
-  background-color: #4286f4;
+  background-color: var(--dark-blue);
 }
 
 .phone-box-cell {
@@ -147,16 +141,15 @@ padding-top: 30px;
   display: flex;
 }
 .started p {
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #4286f4;
+  color: var(--dark-blue)
 }
 .started h3 {
-  font-family: 'Roboto', sans-serif;
+ 
   font-size: 18px;
   font-weight: 600;
-  color: #4286f4;
+  color: var(--dark-blue)
 }
 .started-1 {
   position: relative;
@@ -170,10 +163,9 @@ padding-top: 30px;
   padding-top: 70px;
 }
 .started-2 h2 {
-  font-family: 'Roboto', sans-serif;
   font-weight: 800;
-  color: #55c1ff;
-  font-size: 18px 
+  color: var(--blue-1);
+  font-size: 18px; 
 }
 .started-text {
   padding-bottom: 60px;
@@ -214,7 +206,7 @@ padding-top: 30px;
 /* #endregion */
 /* #region  urn _______________________ */
 .urns {
-  background-color: #55c1ff;
+  background-color: var(--blue-1);
 }
 .urns-row {
   padding: 30px;
@@ -236,21 +228,21 @@ padding-top: 30px;
   
 }
 .urn-h3 {
-  font-family: 'Roboto', sans-serif;
+ 
   font-weight: 800;
   color: #fff;
   font-size: 16px;
   margin: 0;
 }
 .urns-phNumber {
-  font-family: 'Roboto', sans-serif;
-  color: #4286f4;
+ 
+  color: var(--dark-blue);
   font-weight: 800;
   font-size: 25px;
 }
 
 .urn-prod-h3 {
- font-family: 'Roboto', sans-serif;
+
  font-weight: 300;
  color: #fff;
  font-size: 25px;
@@ -258,7 +250,7 @@ padding-top: 30px;
 }
 .urn-products-link {
   font-family: 'Roboto',sans-serif;
-  color: #4286f4;
+  color: var(--dark-blue);
   font-weight: 800;
   font-size: 14px;
   margin: 0;
@@ -275,7 +267,7 @@ padding-top: 30px;
 /* #endregion */
 /* #region  testimony _______________________ */
 .testimony {
-  background-color: #4286f4;
+  background-color: var(--dark-blue);
   max-height: 400px;
 }
 .testimonial {
@@ -392,15 +384,15 @@ padding-top: 30px;
 /* #region  about _______________________  */
 
 .about-words {
-  font-family: 'Roboto', sans-serif;
+ 
 }
 .about-words h2 {
-  color: #55c1ff;
+  color: var(--blue-1);
   font-weight: 500;
   font-size: 40px;
 }
 .about-words p {
-  color: #4286f4;
+  color: var(--dark-blue);
   font-weight: 400;
   font-size: 20px;
 }
@@ -434,7 +426,7 @@ padding-top: 30px;
 /* #region  bridge _______________________ */
 
 .bridge {
-  background-color: #d9f0ff;
+  background-color: var(--lighter-blue);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -455,22 +447,22 @@ padding-top: 30px;
 }
 .white-box-bridge h2 {
    font-family: 'Roboto',sans-serif;
-   color: #55c1ff;
+   color: var(--blue-1);
    font-weight: 500;
    font-size: 30px;
    text-align: center;
    margin-top: 50px;
 }
 .white-box-bridge h4 {
-   font-family: 'Roboto', sans-serif;
-   color: #4286f4;
+  
+   color: var(--dark-blue);
    font-weight: 500;
    font-size: 14px;
    text-align: center;
 }
 .white-box-bridge p {
-  font-family: 'Roboto', sans-serif;
-  color: #4286f4;
+ 
+  color: var(--dark-blue);
   font-size: 14px;
   padding: 0 10px;
   text-align: center;
@@ -479,7 +471,7 @@ padding-top: 30px;
 /* #endregion */
 /* #region  footer _______________________ */
 footer {
-  background-color: #4286f4;
+  background-color: var(--dark-blue);
   min-height: 100px;
 }
 .footer-box {
@@ -503,7 +495,7 @@ footer {
 }
 .footer-links > li > a {
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+ 
   font-size: 12px;
 
 }
@@ -526,7 +518,7 @@ footer {
 }
 .footer-box h2 {
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+ 
   font-size: 20px;
 }
 @media only screen and (max-width: 789px) {
