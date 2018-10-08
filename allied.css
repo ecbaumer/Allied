@@ -28,8 +28,14 @@ button{
 .but-dark {
   background-color: #4286f4;
 }
+.but-dark:hover {
+  background-color: #55c1ff;
+}
 .but-light {
   background-color: #55c1ff;
+}
+.but-light:hover {
+  background-color: #4286f4;
 }
 /* #endregion */
 /* #region  colors _______________________ */
